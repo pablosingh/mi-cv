@@ -1,61 +1,72 @@
 import { Link, animateScroll as scroll } from "react-scroll";
+import pdf from '../pdf/Pablo_Singh_FullStack.pdf';
 import s from '../styles/Head.module.css';
 
 export const Head = () => {
     const name = '< P/S >';
     return (
         <div className={s.container}>
-            <div className={s.btn}>
+            <div className={s.center}>
                 <Link
-                    activeClass="active"
+                    className={s.linkClass}
+                    activeClass={s.active}
                     to="name"
                     spy={true}
                     smooth={true}
                     offset={-70}
                     duration={500}
                     >{name}
+                    {/* // >Pablo */}
                 </Link>
             </div>
             <div className={s.center}>
                 <Link
-                    activeClass="active"
+                    className={s.linkClass}
+                    activeClass={s.active}
                     to="about"
                     spy={true}
                     smooth={true}
                     offset={-70}
                     duration={500}
-                    ><div className={s.btn}>Sobre Mi</div>
+                    >Sobre Mi
                 </Link>
                 <Link
-                    activeClass="active"
+                    className={s.linkClass}
+                    activeClass={s.active}
                     to="skills"
                     spy={true}
                     smooth={true}
                     offset={-70}
                     duration={500}
-                    ><div className={s.btn}>Habilidades</div>
+                    >Habilidades
                 </Link>
                 <Link
-                    activeClass="active"
+                    className={s.linkClass}
+                    activeClass={s.active}
                     to="proyects"
                     spy={true}
                     smooth={true}
                     offset={-70}
                     duration={500}
-                    ><div className={s.btn}>Proyectos</div>
+                    >Proyectos
                 </Link>
                 <Link
-                    activeClass="active"
+                    className={s.linkClass}
+                    activeClass={s.active}
                     to="contact"
                     spy={true}
                     smooth={true}
                     offset={-70}
                     duration={500}
-                    ><div className={s.btn}>Contacto</div>
+                    >Contacto
                 </Link>
             </div>
-            <div className="download">
-                <div className={s.btn}>Download</div>
+            <div className={s.center}>
+                <a href={pdf} 
+                    className={s.linkClass}
+                    download="Pablo_Singh_FullStack.pdf"
+                    >Download
+                </a>
             </div>
         </div>
     )

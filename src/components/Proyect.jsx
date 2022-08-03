@@ -1,15 +1,24 @@
 import s from '../styles/Proyect.module.css';
 
-export const Proyect = () => {
+export const Proyect = (props) => {
+    const { img, title, description, deploy, repo } = props;
     return (
         <div className={s.container}>
-            <img src="" alt='Imagen'/>
+            <img src={img} alt='Imagen'/>
             <div>
-                <h2>Titulo</h2>
-                <p>Descripcion</p>
+                <h2>{title}</h2>
+                <p>{description}</p>
                 <div className={s.twoBtn}>
-                    <button>Deploy</button>
-                    <button>Repo</button>
+                    <button onClick={ () => { 
+                        window.location.href = deploy;
+                    }}
+                    className={s.btn}
+                    >Deploy</button>
+                    <button onClick={ () => { 
+                        window.location.href = repo;
+                    }}
+                    className={s.btn}
+                    >Repo</button>
                 </div>
             </div>
         </div>

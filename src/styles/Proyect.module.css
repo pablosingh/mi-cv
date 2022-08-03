@@ -2,9 +2,24 @@
     width: 70%;
     margin: 0.3em;
     padding: 0.5em;
-    border: 1px solid red;
+    border: 1px solid black;
     border-radius: 1em;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.btn{
+    color: white;
+    margin: 0.7em;
+    padding: 0.3em 0.7em;
+    font-size: 1.2em;
+    border-radius: 1em;
+    background-color: #3a4d54;
+}
+
+.btn:hover {
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #839d92;
 }

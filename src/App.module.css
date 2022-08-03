@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 .App{
     margin: 0em;
     padding: 0em;
@@ -6,4 +7,5 @@
 *{
     margin: 0em;
     padding: 0em;
+    font-family: 'Concert One', cursive;
 }
