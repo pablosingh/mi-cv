@@ -4,7 +4,7 @@ export const Proyect = (props) => {
     const { img, title, description, deploy, repo } = props;
     return (
         <div className={s.container}>
-            <img src={img} alt='Imagen'/>
+            <img src={img} alt='Imagen' className={s.imgProyect}/>
             <div>
                 <h2>{title}</h2>
                 <p>{description}</p>
