@@ -1,14 +1,20 @@
+import styled from 'styled-components';
 import s from '../styles/About.module.css';
 
 export const About = () => {
     return (
         <div className={s.container} id="about">
             <div className={s.card}>
-                <h2>
+                <Hache2>
                     Hola! soy Pablo Singh me gusta mucho programar, estudié 2 años 
                     Ing. Electrónica, entre otras cosas. Aqui te comparto mis proyectos
                     y datos de contacto. Gracias!
-                </h2>
+                </Hache2>
+                <Hache4>
+                    Hola! soy Pablo Singh me gusta mucho programar, estudié 2 años 
+                    Ing. Electrónica, entre otras cosas. Aqui te comparto mis proyectos
+                    y datos de contacto. Gracias!
+                </Hache4>
                 <div className={s.divBtnDirections}>
                     <button onClick={ () => { 
                             window.location.href = 'https://github.com/pablosingh/';
@@ -27,3 +33,15 @@ export const About = () => {
         </div>
     )
 };
+
+const Hache2 = styled.h2`
+    @media(max-width: 768px){
+        display: none;
+    }
+`;
+
+const Hache4 = styled.h4`
+    @media(min-width: 768px){
+        display: none;
+    }
+`;

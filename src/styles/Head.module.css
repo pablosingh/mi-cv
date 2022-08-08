@@ -1,5 +1,5 @@
 
-.container{
+/* .container{
     width: 15vw;
     height: 100vh;
     margin: 0;
@@ -11,7 +11,7 @@
     position: fixed;
     z-index: 1;
     background-color: #3a4d54;
-}
+} */
 
 .center{
     display: flex;

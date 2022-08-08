@@ -1,8 +1,9 @@
 .containerBody{
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 0;
     padding: 0;
-    /* margin-top: 10vh; */
-    /* padding-top: 10vh; */
+    max-width: 100vw;
+    /* background-color: rgba(0, 0, 0, 0.986); */
 }

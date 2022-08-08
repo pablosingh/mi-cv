@@ -1,13 +1,12 @@
 .container{
     width: 100vw;
     height: 90vh;
-    /* background-color: rgba(218, 218, 32, 0.196); */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .card{
-    width: 50%;
+    /* border: 1px solid black; */
     min-height: 40%;
     background-color: #edfafd;
     border-radius: 1em;
@@ -18,8 +17,9 @@
     padding: 1em;
 }
 .imgDiv{
+    /* border: 1px solid black; */
     height: 30vh;
-    padding: 3em;
+    padding: 1em;
 }
 .imgDiv img{
     height: 30vh;
