@@ -80,7 +80,7 @@ const NavContainer = styled.nav`
     right: 0;
     text-align: center;
     a{
-      font-size: 2rem;
+      font-size: 1.3rem;
       margin-top: 1rem;
       color: white;
     }

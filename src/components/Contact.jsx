@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import s from '../styles/Contact.module.css';
+import styled from 'styled-components';
 
 export const Contact = () => {
     const [ data, setData ] = useState({});
@@ -25,7 +26,8 @@ export const Contact = () => {
     return (
         <form className={s.container} id="contact" action='POST' onSubmit={submiting}>
             <div className={s.card}>
-                <h1>Contacto</h1>
+                <Hache1>Contacto</Hache1>
+                <Hache3>Contacto</Hache3>
                 <input type="text" placeholder='Nombre' 
                     name='name' onChange={changing}
                     className={s.inputTextarea}
@@ -47,3 +49,15 @@ export const Contact = () => {
         </form>
     )
 };
+
+const Hache1 = styled.h1`
+    @media(max-width: 768px){
+        display: none;
+    }
+`;
+
+const Hache3 = styled.h3`
+    @media(min-width: 768px){
+        display: none;
+    }
+`;
