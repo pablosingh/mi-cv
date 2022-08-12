@@ -1,5 +1,6 @@
 import { Proyect } from './Proyect';
 import imgProyectPokemon from '../img/inicio_pokemon.jpg';
+import imgProyectDog from '../img/dog-app.jpg';
 import s from '../styles/Proyects.module.css';
 import styled from 'styled-components';
 
@@ -14,6 +15,13 @@ export const Proyects = () => {
                     deploy='http://ps-poke-blue.herokuapp.com/'
                     repo='https://github.com/pablosingh/poke'
                     />
+                <Proyect 
+                    img={imgProyectDog}
+                    title='Dog-App' 
+                    description='Utiliza una api, CRUD para Perros'
+                    deploy='http://dog-app-ps.herokuapp.com/'
+                    repo='https://github.com/pablosingh/dog-app'
+                />
             </Card>
         </div>
     )
