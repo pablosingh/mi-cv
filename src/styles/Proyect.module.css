@@ -1,4 +1,4 @@
-.container{
+/* .container{
     width: 85%;
     margin: 0.3em;
     padding: 0.5em;
@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
+} */
 .btn{
     color: white;
     margin: 0.7em;
@@ -23,8 +23,8 @@
     cursor: pointer;
     background-color: #839d92;
 }
-.imgProyect{
+/* .imgProyect{
     width: 20vw;
     border-radius: 1em;
     margin: 0 0.5em;
-}
+} */
