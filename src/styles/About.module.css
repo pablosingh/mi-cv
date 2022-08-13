@@ -1,11 +1,4 @@
-.container{
-    width: 100vw;
-    height: 90vh;
-    /* background-color: rgba(218, 165, 32, 0.28); */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 .card{
     width: 50%;
     min-height: 40%;
@@ -18,7 +11,7 @@
     justify-content: center;
     padding: 1em;
 }
-.btn{
+/* .btn{
     color: white;
     margin: 0.3em 0.7em;
     padding: 0.3em 0.7em;
@@ -32,7 +25,7 @@
     font-weight: bold;
     cursor: pointer;
     background-color: #839d92;
-}
+} */
 .divBtnDirections{
     margin-top: 1em;
 }
