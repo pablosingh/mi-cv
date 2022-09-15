@@ -30,7 +30,7 @@ export default function DivAnimated(props) {
     visible: {
       opacity: 1,
       transition: {
-        duration: 0.25,
+        duration: 0.2,
         type: "tween",
         ease: "easeIn",
         when: "beforeChildren",
@@ -42,7 +42,7 @@ export default function DivAnimated(props) {
   const fadeInUp = {
     hidden: {
       opacity: 0,
-      y: 40
+      y: -100
     },
     visible: {
       opacity: 1,
