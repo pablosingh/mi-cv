@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { AiFillHtml5 } from "react-icons/ai";
 import { FaReact, FaNodeJs, FaBootstrap } from 'react-icons/fa';
-import { SiRedux, SiMysql, SiPostgresql, SiSequelize, SiPostman } from 'react-icons/si';
+import { SiRedux, SiMysql, SiPostgresql, SiSequelize, SiPostman, SiFirebase } from 'react-icons/si';
 import { DiCss3 } from 'react-icons/di';
 import { BsGithub } from 'react-icons/bs';
 import Tippy from '@tippy.js/react';
@@ -53,6 +53,9 @@ export const Skills = () => {
                 </Tippy>
                 <Tippy content='Material-UI'>
                     <div className={s.skill}>Material-UI</div>
+                </Tippy>
+                <Tippy content='Firebase'>
+                    <div className={s.skill}><SiFirebase size={sizeIcon}/></div>
                 </Tippy>
             </Card>
         </Container>
