@@ -20,7 +20,7 @@ export const Proyects = () => {
                     img={imgProyectDog}
                     title='Dog-App' 
                     description='Utiliza una api, CRUD para Perros'
-                    deploy='http://dog-app-ps.herokuapp.com/'
+                    deploy='https://dog-app-three.vercel.app/'
                     repo='https://github.com/pablosingh/dog-app'
                 />
                 <Proyect 
