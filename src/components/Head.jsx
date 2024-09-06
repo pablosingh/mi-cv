@@ -29,7 +29,7 @@ export const Head = () => {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                    >Sobre Mi
+                    >Sobre Mi 
                 </Link>
                 <Link
                     className={s.linkClass}
