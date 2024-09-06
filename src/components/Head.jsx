@@ -65,7 +65,7 @@ export const Head = () => {
             <div className={s.center}>
                 <a href={pdf} 
                     className={s.linkClass}
-                    download="Pablo_Singh_FullStack.pdf"
+                    download="PabloSingh_FullStack.pdf"
                     >Download
                 </a>
             </div>
