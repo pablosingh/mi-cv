@@ -23,13 +23,13 @@ export const Proyects = () => {
                     deploy='https://dog-app-three.vercel.app/'
                     repo='https://github.com/pablosingh/dog-app'
                 />
-                <Proyect 
+                {/* <Proyect 
                     img={imgProyectFood}
                     title='Food-App' 
                     description='App de menu para un resto, permite ordenar, la parte de cocina lo recibe inmediatamente'
                     deploy='https://ps-food-app.web.app/'
                     repo='https://github.com/pablosingh/food-app'
-                />
+                /> */}
             </Card>
         </div>
     )
