@@ -13,7 +13,7 @@ export const Proyects = () => {
                     img={imgProyectPokemon}
                     title='Pokemons' 
                     description='Utiliza una api, CRUD para pokemons'
-                    deploy='http://ps-poke-blue.herokuapp.com/'
+                    deploy='https://poke-dun.vercel.app/'
                     repo='https://github.com/pablosingh/poke'
                     />
                 <Proyect 
