@@ -30,11 +30,11 @@ export default function DivAnimated(props) {
     visible: {
       opacity: 1,
       transition: {
-        duration: 0.2,
+        duration: 0.03,
         type: "tween",
         ease: "easeIn",
         when: "beforeChildren",
-        staggerChildren: 0.1
+        staggerChildren: 0.015
       }
     }
   };
