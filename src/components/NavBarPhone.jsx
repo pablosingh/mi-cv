@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import styled from 'styled-components';
 import BurguerButton from './BurguerButton';
-import pdf from '../pdf/Pablo_Singh_FullStack.pdf';
+import pdf from '../pdf/pablo_sep24.pdf';
 
 export const NavBarPhone = () => {
   const name = '<Pablo Singh>'
@@ -22,7 +22,7 @@ export const NavBarPhone = () => {
           <Link onClick={handleClick} to='contact'>Contact</Link>
           <a href={pdf} 
                     onClick={handleClick}
-                    download="Pablo_Singh_FullStack.pdf"
+                    download="pablo_singh_fullstack.pdf"
                     >Download
                 </a>
         </div>
