@@ -1,4 +1,5 @@
 import { Proyect } from './Proyect';
+import ProjectVideo from './ProjectVideo';
 import imgProyectPokemon from '../img/inicio_pokemon.jpg';
 import imgProyectDog from '../img/dog-app.jpg';
 import imgProyectFood from '../img/food_app.jpg';
@@ -23,13 +24,13 @@ export const Proyects = () => {
                     deploy='https://dog-app-three.vercel.app/'
                     repo='https://github.com/pablosingh/dog-app'
                 />
-                {/* <Proyect 
+                <ProjectVideo
                     img={imgProyectFood}
-                    title='Food-App' 
-                    description='App de menu para un resto, permite ordenar, la parte de cocina lo recibe inmediatamente'
-                    deploy='https://ps-food-app.web.app/'
-                    repo='https://github.com/pablosingh/food-app'
-                /> */}
+                    title='Cripto-App'
+                    description='CRUD para Criptomonedas, usa una API'
+                    video='https://www.youtube.com/watch?v=he_dPEEWeLY'
+                    repo='https://github.com/pablosingh/reg_op2'
+                />
             </Card>
         </div>
     )
