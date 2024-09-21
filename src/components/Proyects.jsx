@@ -10,7 +10,7 @@ export const Proyects = () => {
     return (
         <div className={s.container} id="proyects">
             <Card>
-                <Proyect 
+                {/* <Proyect 
                     img={imgProyectPokemon}
                     title='Pokemons' 
                     description='Utiliza una api, CRUD para pokemons'
@@ -23,12 +23,12 @@ export const Proyects = () => {
                     description='Utiliza una api, CRUD para Perros'
                     deploy='https://dog-app-three.vercel.app/'
                     repo='https://github.com/pablosingh/dog-app'
-                />
+                /> */}
                 <ProjectVideo
                     img={imgProyectFood}
                     title='Cripto-App'
                     description='CRUD para Criptomonedas, usa una API'
-                    video='https://www.youtube.com/watch?v=he_dPEEWeLY'
+                    video='https://youtu.be/XUopMEQz1D8'
                     repo='https://github.com/pablosingh/reg_op2'
                 />
             </Card>

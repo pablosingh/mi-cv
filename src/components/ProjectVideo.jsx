@@ -28,7 +28,11 @@ export default function ProjectVideo (props) {
             </Container>
             { onVideo ? <ModalVideo className={`${onVideo ? `active`:``}`}>
                 <DivVideo>
-                    <button onClick={()=> setOnVideo(!onVideo)}>X</button>
+                    <DivCloseButton>
+                        <button 
+                            className={s.btn}
+                            onClick={()=> setOnVideo(!onVideo)}>X</button>
+                    </DivCloseButton>
                     <YouTubePlayer
                         url={video}
                         controls
@@ -91,4 +95,10 @@ const DivVideo = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+`;
+
+const DivCloseButton = styled.div`
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
 `;
