@@ -78,15 +78,15 @@ const ModalVideo = styled.div`
     top: 0;
     left: -100vw;
     z-index: 1;
-    width: 100vw;
+    width: 80vw;
     height: 100vh;
     background-color: gray;
     &.active{
         top: 0;
-        left: 0;
+        left: 10vw;
         // width: 100%;
         // height: 100%;
-        // border-radius: 0 0 80% 0;
+        // border-radius: 0 0 40% 0;
     }
 `;
 
