@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import { AiFillHtml5 } from "react-icons/ai";
-import { FaReact, FaNodeJs, FaBootstrap } from 'react-icons/fa';
-import { SiRedux, SiMysql, SiPostgresql, SiSequelize, SiPostman, SiFirebase } from 'react-icons/si';
+import { FaReact, FaNodeJs, FaBootstrap, FaJava } from 'react-icons/fa';
+import { SiRedux, SiMysql, SiPostgresql, SiSequelize, 
+    SiPostman, SiFirebase, SiJavascript, SiSpringboot, SiMongodb } from 'react-icons/si';
+import { TbBrandDocker } from "react-icons/tb";
 import { DiCss3 } from 'react-icons/di';
 import { BsGithub } from 'react-icons/bs';
 import Tippy from '@tippy.js/react';
@@ -15,6 +17,18 @@ export const Skills = () => {
     return (
         <Container id="skills">
             <Card>
+                <Tippy content='JAVA'>
+                    <div className={s.skill}><FaJava size={sizeIcon}/></div>
+                </Tippy>
+                <Tippy content='Spring Boot'>
+                    <div className={s.skill}><SiSpringboot size={sizeIcon}/></div>
+                </Tippy>
+                <Tippy content='Javascript'>
+                    <div className={s.skill}><SiJavascript size={sizeIcon}/></div>
+                </Tippy>
+                <Tippy content='Docker'>
+                    <div className={s.skill}><TbBrandDocker size={sizeIcon}/></div>
+                </Tippy>
                 <Tippy content='HTML 5'>
                     <div className={s.skill}><AiFillHtml5 size={sizeIcon}/></div>
                 </Tippy>
@@ -29,6 +43,9 @@ export const Skills = () => {
                 </Tippy>
                 <Tippy content='NodeJs'>
                     <div className={s.skill}><FaNodeJs size={sizeIcon}/></div>
+                </Tippy>
+                <Tippy content='Mongo'>
+                    <div className={s.skill}><SiMongodb size={sizeIcon}/></div>
                 </Tippy>
                 <Tippy content='MySql'>
                     <div className={s.skill}><SiMysql size={sizeIcon}/></div>

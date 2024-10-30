@@ -16,8 +16,9 @@ export const Contact = () => {
     };
     const submiting = e => {
         e.preventDefault();
-        emailjs.init("fGpG85R7jRG9Ww6KQ");
-        emailjs.send('cv-portafolio','template_qyu9glj', data)
+        // emailjs.init("fGpG85R7jRG9Ww6KQ");
+        // emailjs.send('cv-portafolio','template_qyu9glj', data)
+        emailjs.send('service_54cn2tj','template_53cfrbt', data, 'fGpG85R7jRG9Ww6KQ')
             .then( res => console.log(res) )
             .catch( err => console.log(err) );
         setData({ name:'', email:'', message:'' })
