@@ -1,5 +1,5 @@
 import { Link, animateScroll as scroll } from 'react-scroll';
-import pdf from '../pdf/pablo_singh_sep25.pdf';
+import pdf from '../pdf/pablosingh.pdf';
 import s from '../styles/Head.module.css';
 import styled from 'styled-components';
 
