@@ -1,27 +1,27 @@
-.container{
-    width: 100vw;
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.container {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.card{
-    /* border: 1px solid black; */
-    min-height: 40%;
-    background-color: #edfafd;
-    border-radius: 1em;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1em;
+.card {
+  /* border: 1px solid black; */
+  min-height: 40%;
+  background-color: #edfafd;
+  border-radius: 1em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
 }
-.imgDiv{
-    /* border: 1px solid black; */
-    height: 30vh;
-    padding: 1em;
+.imgDiv {
+  /* border: 1px solid black; */
+  height: 30vh;
+  padding: 1em;
 }
-.imgDiv img{
-    height: 30vh;
-    border-radius: 50%;
+.imgDiv img {
+  height: 30vh;
+  border-radius: 10%;
 }

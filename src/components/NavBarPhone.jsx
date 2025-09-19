@@ -3,7 +3,8 @@ import { Link } from 'react-scroll';
 import styled from 'styled-components';
 import BurguerButton from './BurguerButton';
 // import pdf from '../pdf/pablo_nov24.pdf';
-import pdf from '../pdf/pablo_singh_sep25';
+// import pdf from '../pdf/pablo_singh_sep25';
+import pdf from '../pdf/pablo_singh_sep25.pdf';
 
 export const NavBarPhone = () => {
   const name = '<Pablo Singh>';
