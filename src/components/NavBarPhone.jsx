@@ -1,12 +1,12 @@
-import React, { useState } from "react";
-import { Link } from "react-scroll";
-import styled from "styled-components";
-import BurguerButton from "./BurguerButton";
+import React, { useState } from 'react';
+import { Link } from 'react-scroll';
+import styled from 'styled-components';
+import BurguerButton from './BurguerButton';
 // import pdf from '../pdf/pablo_nov24.pdf';
-import pdf from "../pdf/pablo_singh_feb_25.pdf";
+import pdf from '../pdf/Pablo_Singh_sep25';
 
 export const NavBarPhone = () => {
-  const name = "<Pablo Singh>";
+  const name = '<Pablo Singh>';
   const [clicked, setClicked] = useState(false);
   const handleClick = () => {
     //cuando esta true lo pasa a false y vice versa
@@ -15,7 +15,7 @@ export const NavBarPhone = () => {
   return (
     <>
       <NavContainer>
-        <div className={`links ${clicked ? "active" : ""}`}>
+        <div className={`links ${clicked ? 'active' : ''}`}>
           <Link onClick={handleClick} to="name">
             {name}
           </Link>
@@ -31,18 +31,14 @@ export const NavBarPhone = () => {
           <Link onClick={handleClick} to="contact">
             Contact
           </Link>
-          <a
-            href={pdf}
-            onClick={handleClick}
-            download="pablo_singh_fullstack.pdf"
-          >
+          <a href={pdf} onClick={handleClick} download="pablo_singh_fullstack.pdf">
             Download
           </a>
         </div>
         <div className="burguer">
           <BurguerButton clicked={clicked} handleClick={handleClick} />
         </div>
-        <BgDiv className={`initial ${clicked ? " active" : ""}`}></BgDiv>
+        <BgDiv className={`initial ${clicked ? ' active' : ''}`}></BgDiv>
       </NavContainer>
     </>
   );

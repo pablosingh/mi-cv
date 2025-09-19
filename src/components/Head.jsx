@@ -1,78 +1,33 @@
-import { Link, animateScroll as scroll } from "react-scroll";
-// import pdf from '../pdf/pablo_nov24.pdf';
-import pdf from "../pdf/pablo_singh_feb_25.pdf";
-import s from "../styles/Head.module.css";
-import styled from "styled-components";
+import { Link, animateScroll as scroll } from 'react-scroll';
+import pdf from '../pdf/Pablo_Singh_sep25.pdf';
+import s from '../styles/Head.module.css';
+import styled from 'styled-components';
 
 export const Head = () => {
-  const name = "< P/S >";
+  const name = '< P/S >';
   return (
     <Container>
       <div className={s.center}>
-        <Link
-          className={s.linkClass}
-          activeClass={s.active}
-          to="name"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
+        <Link className={s.linkClass} activeClass={s.active} to="name" spy={true} smooth={true} offset={-70} duration={500}>
           {name}
         </Link>
       </div>
       <div className={s.center}>
-        <Link
-          className={s.linkClass}
-          activeClass={s.active}
-          to="about"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
+        <Link className={s.linkClass} activeClass={s.active} to="about" spy={true} smooth={true} offset={-70} duration={500}>
           Sobre Mi
         </Link>
-        <Link
-          className={s.linkClass}
-          activeClass={s.active}
-          to="skills"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
+        <Link className={s.linkClass} activeClass={s.active} to="skills" spy={true} smooth={true} offset={-70} duration={500}>
           Habilidades
         </Link>
-        <Link
-          className={s.linkClass}
-          activeClass={s.active}
-          to="proyects"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
+        <Link className={s.linkClass} activeClass={s.active} to="proyects" spy={true} smooth={true} offset={-70} duration={500}>
           Proyectos
         </Link>
-        <Link
-          className={s.linkClass}
-          activeClass={s.active}
-          to="contact"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
+        <Link className={s.linkClass} activeClass={s.active} to="contact" spy={true} smooth={true} offset={-70} duration={500}>
           Contacto
         </Link>
       </div>
       <div className={s.center}>
-        <a
-          href={pdf}
-          className={s.linkClass}
-          download="pablo_singh_fullstack.pdf"
-        >
+        <a href={pdf} className={s.linkClass} download="pablo_singh_fullstack.pdf">
           Download
         </a>
       </div>
